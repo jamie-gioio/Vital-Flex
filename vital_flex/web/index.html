@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Firebase App</title>
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+
+  <!-- Add other Firebase SDKs as needed (e.g., for Firestore, Authentication) -->
+</head>
+<body>
+  <h1>Welcome to Firebase</h1>
+
+  <script>
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "firebase/app";
+    import { getAnalytics } from "firebase/analytics";
+    import { getFirestore } from "firebase/firestore";
+
+    // Your web app's Firebase configuration
+    const firestore = getFirestore(app);
+    const firebaseConfig = {
+      apiKey: "AIzaSyBNh4jjATuFZN7v4axEJ8FwVPmydtq95uc",
+      authDomain: "vital-flex.firebaseapp.com",
+      projectId: "vital-flex",
+      storageBucket: "vital-flex.firebasestorage.app",
+      messagingSenderId: "767992730755",
+      appId: "1:767992730755:web:fa6e56cafc8bf490cff7b6",
+      measurementId: "G-0ZMZPW426S"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>
+</html>

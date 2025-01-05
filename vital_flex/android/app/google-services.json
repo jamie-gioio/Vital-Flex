@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "767992730755",
+    "project_id": "vital-flex",
+    "storage_bucket": "vital-flex.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767992730755:android:35ab32d78c65a4cfcff7b6",
+        "android_client_info": {
+          "package_name": "com.android.vital_flex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_HOSEI8-Y9RGjJPFMXOc2p69NdaIs6Q4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
